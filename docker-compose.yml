@@ -1,0 +1,27 @@
+version: '2'
+services:
+  wikidb:
+    image: mongo
+    expose:
+      - '27017'
+    command: '--smallfiles --bind_ip wikidb'
+    environment:
+      - 'MONGO_LOG_DIR=/dev/null'
+    volumes:
+      - ./data/mongo:/data/db
+  wikijs:
+    image: 'requarks/wiki:latest'
+    links:
+      - wikidb
+    depends_on:
+      - wikidb
+    ports:
+      - '8088:3000'
+    environment:
+      WIKI_ADMIN_EMAIL: ${WIKI_ADMIN_EMAIL}
+      GIT_USER_NAME:    ${GIT_USER_NAME}
+      GIT_USER_PASS:    ${GIT_USER_PASS}
+      GIT_REPO_URL:     ${GIT_REPO_URL}
+    volumes:
+      - ./config.yml:/var/wiki/config.yml
+      - /var/log/www/tabby:/logs
