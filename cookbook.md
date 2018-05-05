@@ -9,10 +9,26 @@ Abandon all hope
 
 ### Speed up Outlook by re-indexing
 
+### Marking vacation days on others' calendars
+
 ## Regex
 https://regex101.com/
 
-### Marking vacation days on others' calendars
+## Markdown
+Links
+Lists
+Images
+Headers
+
+## For SLab site
+YAML for posts, pages
+Data files
+Uploading images/assets
+Rake
+PR/Travis
+
+## Converting document files
+Pandoc
 
 # Command line
 
