@@ -2,13 +2,15 @@ Little things that are helpful and/or fun
 
 {:toc}
 
-# Project management type tools
+# Officey tools
 
 ## Outlook
 Abandon all hope
 
 ### Speed up Outlook by re-indexing
 
+## Regex
+https://regex101.com/
 
 ### Marking vacation days on others' calendars
 
