@@ -1,10 +1,10 @@
 Little things that are helpful and/or fun
 
-{:toc}
+I guess `{:toc}` doesn't work here?
 
 # Officey tools
 
-## Outlook
+## Outlook (email)
 Abandon all hope
 
 ### Speed up Outlook by re-indexing
@@ -14,21 +14,24 @@ Abandon all hope
 ## Regex
 https://regex101.com/
 
-## Markdown
-Links
-Lists
-Images
-Headers
-
-## For SLab site
+## SLab site
 YAML for posts, pages
 Data files
 Uploading images/assets
 Rake
 PR/Travis
 
+### Markdown
+Links
+Lists
+Images
+Headers
+
 ## Converting document files
 Pandoc
+
+## Miscellaneous
+Command-option-shift-V (Mac) pastes using the current styling of the document you're pasting into
 
 # Command line
 
