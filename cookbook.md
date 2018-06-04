@@ -6,6 +6,12 @@ Little things that are helpful and/or fun
 Abandon all hope
 
 ### Speed up Outlook by re-indexing
+For Macs. From [this how-to](https://support.microsoft.com/en-us/help/2741535/outlook-for-mac-search-returns-no-results-and-task-items-are-not-displ), which has more info in case you run into problems (e.g. if your Outlook profile name has special characters).
+
+Replace *DOGS* with your computer's username, and *MOREDOGS* with your Outlook profile name (see link above if you don't know what that is):
+```
+mdimport -g "/Applications/Microsoft Outlook.app/Contents/Library/Spotlight/Microsoft Outlook Spotlight Importer.mdimporter" -d1 "/Users/DOGS/Library/Group Containers/UBF8T346G9.Office/Outlook/Outlook 15 Profiles/MOREDOGS"
+```
 
 ### Marking vacation days on others' calendars
 
