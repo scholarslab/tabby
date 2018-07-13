@@ -7,7 +7,6 @@ If the Scholars' Lab agrees to participate in a research project, we must seek t
 ## What is the Project?
 
 The group should produce a brief statement that explains the purpose and goals of the project. In doing so, the group shoudl strive to articulate why the work should exist, and subsequently how they and others should be affected, positively, once they've seen and used the project.
-What is the Scope of the Project?
 
 ## What is the Scope of the Project?
 
@@ -25,8 +24,24 @@ Identify the individuals who are part of the collaboration. Describe how each pe
 
 Decide, as a group, when work on this project should be completed. Set milestones, each with dates and a description of the work that should be finished by those dates.
 
-# Managing a Project in Notion.so
+---
 
-1. Create a Workspace in Notion (in the lefthand menu, right-click on "Doing a Project" > Duplicate, rename that to your new project
-2. Add the project to SLab General > Projects (make sure to link to your workspace, too)
-3.
+# Description
+
+# Scope
+
+# Environmental Scan
+
+# Milestones
+
+Development Timeline
+
+# Team
+
+- [name staff]
+
+# Inbox
+
+## Aspirations
+
+## Tasks
