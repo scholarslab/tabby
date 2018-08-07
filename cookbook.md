@@ -48,15 +48,8 @@ control-ae/control-e
 
 ## Exiting emacs 
 
-# Data sources
-Data for teaching, making generative art, etc.
-
-## Fun data
-[HappyDB](https://github.com/rit-public/HappyDB) crowdsourced short descriptions of happy moments
-[Corpora](https://github.com/dariusk/corpora) collection of small+interesting datasets for use with bots etc.
-[Marvel API](https://developer.marvel.com/) probably awfully structured
-
 # Communities
 UVa Library Slack (staff only)
 DH Slack
 Documenting the Now Slack
+[List of DH users, orgs, and repos on Github](https://github.com/amandavisconti/digitalhumanities/blob/master/githubbers.md)
