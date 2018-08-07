@@ -22,5 +22,8 @@ List of APIs, tools, and datasets for work with libraries, publishing, reading, 
 
 - [Marvel API](https://developer.marvel.com/) probably awfully structured
 
+- [Project GITenberg(https://gitenberg.github.io/)
+"A Free and Open, Collaborative, Trackable and Scriptable digital library"
+
 # Other related neat stuff
 [Glitch](http://glitch.com)
