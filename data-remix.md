@@ -18,5 +18,9 @@ List of APIs, tools, and datasets for work with libraries, publishing, reading, 
 - [Corpora](https://github.com/dariusk/corpora)
 "A collection of small corpuses of interesting data for the creation of bots and similar stuff" (e.g animals, mythology, other sets of names and/or nouns, perfect for using with bots).
 
+- [HappyDB](https://github.com/rit-public/HappyDB) crowdsourced short descriptions of happy moments
+
+- [Marvel API](https://developer.marvel.com/) probably awfully structured
+
 # Other related neat stuff
 [Glitch](http://glitch.com)
