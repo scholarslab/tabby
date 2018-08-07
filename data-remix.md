@@ -29,4 +29,5 @@ List of APIs, tools, and datasets for work with libraries, publishing, reading, 
 "Large data archives from both sites and individuals"
 
 # Other related neat stuff
-[Glitch](http://glitch.com)
+[Glitch](http://glitch.com)  
+[OpenRefine](http://openrefine.org/) Clean your data up!
