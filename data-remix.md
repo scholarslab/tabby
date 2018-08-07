@@ -13,5 +13,7 @@ List of APIs, tools, and datasets for work with libraries, publishing, reading, 
 - [Library of Congress Labs](https://labs.loc.gov/)
 "A place to encourage innovation with Library of Congress digital collections... Check out tools, art, applications, and visualizations we’ve made with our collections. Find APIs, bulk downloads, and tutorials for the Library’s digital collections."
 
+- [Complete Public Reddit Comments Corpus](https://archive.org/details/2015_reddit_comments_corpus)
+
 # Other related neat stuff
 [Glitch](http://glitch.com)
