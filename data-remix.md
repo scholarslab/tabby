@@ -25,5 +25,8 @@ List of APIs, tools, and datasets for work with libraries, publishing, reading, 
 - [Project GITenberg(https://gitenberg.github.io/)
 "A Free and Open, Collaborative, Trackable and Scriptable digital library"
 
+- [Internet Archive Dataset Collection](https://archive.org/details/datasets)
+"Large data archives from both sites and individuals"
+
 # Other related neat stuff
 [Glitch](http://glitch.com)
