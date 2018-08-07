@@ -14,42 +14,42 @@ mdimport -g "/Applications/Microsoft Outlook.app/Contents/Library/Spotlight/Micr
 ```
 
 ### Marking vacation days on others' calendars
+To be added
 
 ## Regex
 https://regex101.com/
 
 ## SLab site
-YAML for posts, pages
-Data files
-Uploading images/assets
-Rake
-PR/Travis
+Link to documentation to be added
 
 ### Markdown
-Links
-Lists
-Images
-Headers
+Link to cheatsheet to be added
 
 ## Converting document files
-Pandoc
+Pandoc info to be added
 
 ## Miscellaneous
 Command-option-shift-V (Mac) pastes using the current styling of the document you're pasting into
 
+[Asking your tech question online successfully](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/)
+
 # Command line
 
 ## Make your command line ~fancy~
+To be added
 
 ## Basic commands
 cd
 ls
 control-ae/control-e
+To be added
 
 ## Exiting emacs 
+To be added
 
 # Communities
 UVa Library Slack (staff only)
 DH Slack
 Documenting the Now Slack
 [List of DH users, orgs, and repos on Github](https://github.com/amandavisconti/digitalhumanities/blob/master/githubbers.md)
+To be added
