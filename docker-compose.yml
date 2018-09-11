@@ -1,22 +1,22 @@
 version: '2'
 services:
-  wikidb:
+  tabb_wikidb:
     image: mongo
     expose:
       - '27017'
-    command: '--smallfiles --bind_ip wikidb'
+    command: '--smallfiles --bind_ip tabby_wikidb'
     environment:
       - 'MONGO_LOG_DIR=/dev/null'
     volumes:
       - ./data/mongo:/data/db
-  wikijs:
+    labels:
+      - "traefik.enable=false"
+  tabby_wikijs:
     image: 'requarks/wiki:latest'
     links:
-      - wikidb
+      - tabby_wikidb
     depends_on:
-      - wikidb
-    ports:
-      - '8088:3000'
+      - tabby_wikidb
     environment:
       WIKI_ADMIN_EMAIL: ${WIKI_ADMIN_EMAIL}
       GIT_USER_NAME:    ${GIT_USER_NAME}
@@ -25,3 +25,13 @@ services:
     volumes:
       - ./config.yml:/var/wiki/config.yml
       - /var/log/www/tabby:/logs
+     networks:
+       - thenetwork
+     expose:
+       - "80"
+     labels:
+       - "traefik.docker.network=thenetwork"
+       - "traefik.enable=true"
+       - "traefik.port=80"
+       - "traefik.backend=tabby_wikijs"
+       - "traefik.frontend.rule=Host:tabby.scholarslab.org"
