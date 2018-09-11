@@ -1,6 +1,6 @@
 version: '2'
 services:
-  tabb_wikidb:
+  tabby_wikidb:
     image: mongo
     expose:
       - '27017'
@@ -11,6 +11,7 @@ services:
       - ./data/mongo:/data/db
     labels:
       - "traefik.enable=false"
+
   tabby_wikijs:
     image: 'requarks/wiki:latest'
     links:
@@ -25,13 +26,14 @@ services:
     volumes:
       - ./config.yml:/var/wiki/config.yml
       - /var/log/www/tabby:/logs
-     networks:
-       - thenetwork
-     expose:
-       - "80"
-     labels:
-       - "traefik.docker.network=thenetwork"
-       - "traefik.enable=true"
-       - "traefik.port=80"
-       - "traefik.backend=tabby_wikijs"
-       - "traefik.frontend.rule=Host:tabby.scholarslab.org"
+    labels:
+      - "traefik.docker.network=thenetwork"
+      - "traefik.enable=true"
+      - "traefik.port=80"
+      - "traefik.backend=tabby_wikijs"
+      - "traefik.frontend.rule=Host:tabby.scholarslab.org"
+
+networks:
+  default:
+    external:
+      name: thenetwork
