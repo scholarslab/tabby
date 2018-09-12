@@ -1,21 +1,17 @@
-version: '2'
+version: "2"
 services:
   tabby_wikidb:
     image: mongo
-    expose:
-      - '27017'
-    command: '--smallfiles --bind_ip tabby_wikidb'
+    command: "--smallfiles --bind_ip tabby_wikidb"
     environment:
-      - 'MONGO_LOG_DIR=/dev/null'
+      - "MONGO_LOG_DIR=/dev/null"
     volumes:
       - ./data/mongo:/data/db
     labels:
       - "traefik.enable=false"
 
   tabby_wikijs:
-    image: 'requarks/wiki:latest'
-    links:
-      - tabby_wikidb
+    image: "requarks/wiki:latest"
     depends_on:
       - tabby_wikidb
     environment:
@@ -29,7 +25,7 @@ services:
     labels:
       - "traefik.docker.network=thenetwork"
       - "traefik.enable=true"
-      - "traefik.port=80"
+      - "traefik.port=3000"
       - "traefik.backend=tabby_wikijs"
       - "traefik.frontend.rule=Host:tabby.scholarslab.org"
 

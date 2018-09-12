@@ -115,7 +115,7 @@ sessionSecret: djjbttm73M9dT8K6cdTj2CbvVwPVpKxw
 # Database Connection String
 # ---------------------------------------------------------------------
 
-db: mongodb://wikidb:27017/wiki
+db: mongodb://tabby_wikidb:27017/wiki
 
 # ---------------------------------------------------------------------
 # Git Connection Info
