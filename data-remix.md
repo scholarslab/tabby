@@ -7,6 +7,8 @@ Examples of API use or otherwise taking existing data sources & filtering system
 
 # Interesting data sets
 
+- [Meme Generator and Giphy Datasets](https://labs.loc.gov/experiments/webarchive-datasets/): datasets containing metadata from crawls of 86,310 total memes harvested from Meme Generator & 14,787 total GIFs from GIPHY, assembled by the Library of Congress Lab. [Blog post](https://blogs.loc.gov/thesignal/2018/10/data-mining-memes-in-the-digital-culture-web-archive/) on why they assembled this dataset.
+
 - [CODEX Hackathon GoogleDoc](https://docs.google.com/document/d/1F-v1ad_KQ1s7k9Rae_OyFee0zSway7TVscnc03Dffwo/edit?usp=sharing)
 List of APIs, tools, and datasets for work with libraries, publishing, reading, writing, and other bookish things
 
