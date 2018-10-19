@@ -18,7 +18,7 @@ List of APIs, tools, and datasets for work with libraries, publishing, reading, 
 - [Complete Public Reddit Comments Corpus](https://archive.org/details/2015_reddit_comments_corpus)
 
 - [Corpora](https://github.com/dariusk/corpora)
-"A collection of small corpuses of interesting data for the creation of bots and similar stuff" (e.g animals, mythology, other sets of names and/or nouns, perfect for using with bots).
+"A collection of small corpuses of interesting data for the creation of bots and similar stuff" (e.g animals, mythology, other sets of names and/or nouns). These is PERFECT for building Twitter bots, e.g. with CHeap Bots Done Quick (if the recent Twitter dev changes didn't break that...), on many topics
 
 - [HappyDB](https://github.com/rit-public/HappyDB) crowdsourced short descriptions of happy moments
 
