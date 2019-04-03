@@ -2,7 +2,7 @@
 
 ![Tabby](tabby.jpg)
 
-Titular application benchmarking blueprints, y'all
+**T**itular **a**pplication **b**enchmarking **b**lueprints, **y**'all
 
 A Wiki for tracking projects, Slab information and institutional history, or whatever.
 
