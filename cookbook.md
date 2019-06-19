@@ -5,6 +5,9 @@ Little things that are helpful and/or fun
 ## Outlook (email)
 Abandon all hope
 
+### When email draft completely disappear instead of sending
+Sometimes I save an Outlook for Mac email draft (either leaving it in Drafts, or dragging it to my Inbox so I don't forget to send it), and then on sending it disappears completely (rather than moving to Sent, Trash, or other folders). I’ve found that logging into my email via browser, visiting “Deleted Items”, and clicking “Recover items deleted from this folder” showed me the evaporated email (which appears to have been sent) and allowed me to move it back to my Sent folder.
+
 ### Use rules to divert emails to folders
 Possible uses: 
 - Delete emails you don't want to see
