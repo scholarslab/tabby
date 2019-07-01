@@ -32,6 +32,8 @@ List of APIs, tools, and datasets for work with libraries, publishing, reading, 
 - [Internet Archive Dataset Collection](https://archive.org/details/datasets)
 "Large data archives from both sites and individuals"
 
+- [Spreadsheet of cool data sets](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0) from the "Data Is Plural" newsletter
+
 # Other related neat stuff
 [Glitch](http://glitch.com)  
 [OpenRefine](http://openrefine.org/) Clean your data up!
